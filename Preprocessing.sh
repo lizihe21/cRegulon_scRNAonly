@@ -8,7 +8,7 @@ Sample=$1
 #sed s/Sample/${Sample}/g ./scr/NearPeakDis.py > NearPeakDis.py
 #python NearPeakDis.py;rm NearPeakDis.py
 #sed s/Sample/${Sample}/g ./scr/GA.py > GA.py
-python GA.py;rm GA.py
+#python GA.py;rm GA.py
 sed s/Sample/${Sample}/g ./scr/GE.py > GE.py
 python GE.py;rm GE.py
 echo "Preprocessing end: ${Sample}_GE.txt and ${Sample}_GA.txt generated!"
